@@ -7,7 +7,7 @@ the output below.
 
 fname = input('Enter file name: ')
 try:
-    fhand = open('6-Files/'+ fname)
+    fhand = open(fname)
     for line in fhand:
         print(line.strip().upper())
 except:

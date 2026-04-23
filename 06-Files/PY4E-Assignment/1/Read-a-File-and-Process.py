@@ -14,7 +14,7 @@ when you are testing below enter mbox-short.txt as the file name.
 
 fname = input('Enter file name: ')
 try:
-    fhand = open('6-Files/' + fname)
+    fhand = open(fname)
 except:
     print('Invalid directory name.')
     quit()
